@@ -1,0 +1,28 @@
+@import "./reset.css";
+@import "../assets/fonts/icomoon/style.css";
+
+header {
+    height: 50px;
+    background: #b0b0b0;
+    padding: 16px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.navigation__item {
+    font-size: 14px;
+    transition: all 150ms linear;
+    opacity: 0.6;
+}
+
+.navigation__item:hover {
+   opacity: unset;
+    color: blue;
+}
+
